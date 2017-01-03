@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0AB5453-1358-4725-8453-D4729C49E7C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B28AB4D-3713-47C7-9B15-3DEA446F48C0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SpanCorrupt", "src\SpanCorrupt\SpanCorrupt.xproj", "{090457A3-E4C2-4DC1-A44E-A64F8EE9D44A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Binary", "D:\github\corefxlab\src\System.Binary\System.Binary.xproj", "{9E0BF83B-CC6B-472A-AA6E-FFD507AE9D9F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Collections.Sequences", "D:\github\corefxlab\src\System.Collections.Sequences\System.Collections.Sequences.xproj", "{2D178A3D-247D-46C4-BAC3-DAB5EFC064A7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.IO.Pipelines", "D:\github\corefxlab\src\System.IO.Pipelines\System.IO.Pipelines.xproj", "{A712AE2E-C98E-4E83-9B33-789141763541}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Slices", "D:\github\corefxlab\src\System.Slices\System.Slices.xproj", "{94177D1E-1CD3-4878-9FB2-3EB8DFD5CC2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{090457A3-E4C2-4DC1-A44E-A64F8EE9D44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090457A3-E4C2-4DC1-A44E-A64F8EE9D44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090457A3-E4C2-4DC1-A44E-A64F8EE9D44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090457A3-E4C2-4DC1-A44E-A64F8EE9D44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0BF83B-CC6B-472A-AA6E-FFD507AE9D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0BF83B-CC6B-472A-AA6E-FFD507AE9D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0BF83B-CC6B-472A-AA6E-FFD507AE9D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0BF83B-CC6B-472A-AA6E-FFD507AE9D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D178A3D-247D-46C4-BAC3-DAB5EFC064A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D178A3D-247D-46C4-BAC3-DAB5EFC064A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D178A3D-247D-46C4-BAC3-DAB5EFC064A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D178A3D-247D-46C4-BAC3-DAB5EFC064A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A712AE2E-C98E-4E83-9B33-789141763541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A712AE2E-C98E-4E83-9B33-789141763541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A712AE2E-C98E-4E83-9B33-789141763541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A712AE2E-C98E-4E83-9B33-789141763541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94177D1E-1CD3-4878-9FB2-3EB8DFD5CC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94177D1E-1CD3-4878-9FB2-3EB8DFD5CC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94177D1E-1CD3-4878-9FB2-3EB8DFD5CC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94177D1E-1CD3-4878-9FB2-3EB8DFD5CC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{090457A3-E4C2-4DC1-A44E-A64F8EE9D44A} = {D0AB5453-1358-4725-8453-D4729C49E7C4}
+	EndGlobalSection
+EndGlobal
